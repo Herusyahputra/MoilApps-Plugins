@@ -48,6 +48,7 @@
      $ pip install Moildev==2.1.0
      $ pip install Pillow==8.0.1
      $ pip install PyQt5==5.15.0
+     $ pip install pyserial
      ```
      
    - change directory to the repository folder
