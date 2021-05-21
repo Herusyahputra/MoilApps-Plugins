@@ -17,12 +17,16 @@
    - your application becomes smaller and easier to understand
 
 2. **How to use this apps**
+   
    There are several steps to be able to install this application:
    - Step 1.
      - Open your terminal by clicking Ctrl + Alt + T 
-     - Type the command in terminal
+     - Type the command for a permissions
      ```
       $ chmod +x autoSetUp
+     ``` 
+     - Type the command for installation application
+     ```
       $ ./autoSetUp
      ```
      - The result 
