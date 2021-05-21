@@ -17,32 +17,45 @@
    - your application becomes smaller and easier to understand
 
 2. **How to use this apps**
+   There are several steps to be able to install this application:
+   - Step 1.
+     - Open your terminal by clicking Ctrl + Alt + T 
+     - Type the command in terminal
+     ```
+      $ chmod +x autoSetUp
+      $ ./autoSetUp
+     ```
+     - The result 
+      
+      ![](./assets/louncher.png)
 
-   Before you install the Moildev app, you have to install Qt5 for the platform plugin, follow the steps for this installer
+   - Steps 2.
+   
+     - Before you install the Moildev app, you have to install Qt5 for the platform plugin, follow the steps for this installer
       ```
       $ sudo apt-get install build-essential
       $ sudo apt-get install qtcreator
       $ sudo apt-get install qt5-default
       ```
-   make sure you has install python3 then follow the step bellow.
-   - clone this repository
+     make sure you has install python3 then follow the step bellow.
+     - clone this repository
       ```
       $ git clone https://github.com/MoilOrg/MoilApps-Plugins.git
       ```
-   - change directory to the repository folder
+     - change directory to the repository folder
 
      ```
      $ cd MoilApps-Plugins
      ```
      
-   - To run this program, we recommend that you create an environment by following the steps below:
+     - To run this program, we recommend that you create an environment by following the steps below:
      ```
      $ sudo apt install virtualenv
      $ virtualenv env
      $ source env/bin/activate
      ```
 
-   - install the requirements below in the environment you created earlier
+     - install the requirements below in the environment you created earlier
 
      ```
      $ pip install Moildev==2.1.0
@@ -51,18 +64,18 @@
      $ pip install pyserial
      ```
      
-   - change directory to the repository folder
+     - change directory to the repository folder
 
      ```
      $ cd src
      ```
      
-   - run the main_apps.py in folder "src"
+     - run the main_apps.py in folder "src"
      ```
      $ python main_apps.py
      ```
 
-After you run this program, a display will appear as shown below.
+   After you run this program, a display will appear as shown below.
 
    ![](./assets/louncher.png)
 
